@@ -4,62 +4,54 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/HotPatchFramework.h</key>
+		<key>.DS_Store</key>
 		<data>
-		WnZ5HkHqgX15+m3RaQD3hYW7cVs=
+		Y9WBfDipMKPzzbOcelN6wygMoqU=
 		</data>
-		<key>Headers/HotPatchViewController.h</key>
+		<key>Headers/MyDynamicFramework.h</key>
 		<data>
-		4es37sYVROIj8ncjO5TH6Mjy/ns=
+		gsMsfEJGcV3zar285fqik99Bxjw=
+		</data>
+		<key>Headers/MyDynamicViewController.h</key>
+		<data>
+		MVVloMTkWJ5soajaAn4rKDZDIvk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LQdErX2goXIr9SnTfUjWtDlzHF8=
+		Cefz4Zoa3M+GKOwDOPUY0TS+hWU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		rGDj8+Umdi7US0BMVhVZ5m0qTls=
+		8volykYTJqhoLG0bk99ok6CE6U0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/HotPatchFramework.h</key>
+		<key>Headers/MyDynamicFramework.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			WnZ5HkHqgX15+m3RaQD3hYW7cVs=
-			</data>
 			<key>hash2</key>
 			<data>
-			LLPie4ezmN3JHDlMyuxFnppvDQHFqXvznqT+44rVWoA=
+			7FRXye9fznd+Gy9nBo1gqkzpPRtWFZi7E2EANonYgGo=
 			</data>
 		</dict>
-		<key>Headers/HotPatchViewController.h</key>
+		<key>Headers/MyDynamicViewController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4es37sYVROIj8ncjO5TH6Mjy/ns=
-			</data>
 			<key>hash2</key>
 			<data>
-			1Z75L2IocSNUmgsYdj9L1t0A7LRepVDBwBIB68mQjWo=
+			vOs/BbJ4TAYaLKN0huWKoWRJCBG5EDuKfYuuy3m3LaA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rGDj8+Umdi7US0BMVhVZ5m0qTls=
-			</data>
 			<key>hash2</key>
 			<data>
-			t6Nb/uhBZacZIuFPS4HDnAqX7UEvuRV0WSWYCfC+8sI=
+			QbljmS8hm1YtsK+QAiGRFUG4Z/Gao/ePxu3Wl/N/urM=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -90,24 +82,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -143,13 +123,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
