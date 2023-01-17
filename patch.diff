@@ -1,0 +1,23 @@
+From cecb02c40461f0705ee3bb2437a8dbc0e220182a Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=BE=9A=E6=B5=A9=E6=A4=8D?= <675560219@qq.com>
+Date: Fri, 13 Jan 2023 11:29:46 +0800
+Subject: [PATCH] 1111
+
+---
+ MyDynamicFramework.framework/Info.plist | Bin 771 -> 767 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/MyDynamicFramework.framework/Info.plist b/MyDynamicFramework.framework/Info.plist
+index 1552d3ae7ee2a994cad467b4e8012ff95c769af8..2c4449649ec0f64014f12468f327b777641a1353 100644
+GIT binary patch
+delta 107
+zcmZo>`_H=J4Wpz)a(=E}dVXGdMq<96M}A2_Vo7p_Zb@qKWKO27uB=R)Ongj2Od?FO
+sO!7=FOkPaEOc6|}Oj%5YOl3@!Ow~-aO!W+4z{Cil8FZmElwxWH0NDW)J^%m!
+
+delta 85
+zcmey*+RV1$4Wq0~a(=E}dVXGdMq++dMy8%een~)LNpgm+OKNWZWLBoFs+>%`OhQaz
+pOcG3rOv+3iOnyw^OfgKEOnFSDOjS&^O!Z8SOwE(;Gs!b{0sv=D7gzuQ
+
+-- 
+2.37.0
+
