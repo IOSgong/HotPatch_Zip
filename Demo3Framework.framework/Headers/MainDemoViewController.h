@@ -1,6 +1,6 @@
 //
-//  DemoMainViewController.h
-//  Demo2Framework
+//  MainDemoViewController.h
+//  Demo3Framework
 //
 //  Created by 龚浩植 on 2023/1/28.
 //
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DemoMainViewController : UIViewController
+@interface MainDemoViewController : UIViewController
 
 @end
 

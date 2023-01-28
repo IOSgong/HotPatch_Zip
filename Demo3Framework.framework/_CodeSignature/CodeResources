@@ -4,44 +4,44 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Demo2Framework.h</key>
+		<key>Headers/Demo3Framework.h</key>
 		<data>
-		72OSxHsVm59WRcZH1hbGqg0HK+o=
+		ICSigasNV0bxgRnD6/hlwfOUfys=
 		</data>
-		<key>Headers/DemoMainViewController.h</key>
+		<key>Headers/MainDemoViewController.h</key>
 		<data>
-		4xiO+3LhbiBQ/cZZGWgXN/iDMkA=
+		/UqGotaMoPFF0YJCV9hviKWd19s=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1twKt3zIX8G4rFf16pzWU72CpKk=
+		TGnxJAOpwavuxyPSfF4gOjtiPhU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		UjKas4+gywTVf14IihP+h4ivnKo=
+		4HZg8DFrP5IxLjBIY1d3mui4MU8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Demo2Framework.h</key>
+		<key>Headers/Demo3Framework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sOLBuFwR3pkOIAI/TpwmSdLtvP9WZz4B9Fg6Z450k8Y=
+			NFbp9wpnR1hf5X5Xqb96/3oxFHX5lmh1184aumg9OCA=
 			</data>
 		</dict>
-		<key>Headers/DemoMainViewController.h</key>
+		<key>Headers/MainDemoViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nuu7qUzU7TnoM+W44pIkY68seBIf4yoVJ/Ehf71g4wc=
+			mCbQJ0ZDsei4Ac0JmdzMHfMMtWHAyXyYZQ+Z0SWPgGQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b66b/uaZVgwfq2lwo2pEuClHCr2J8B+NfqEGUWeHzMc=
+			lzrFd9WoIUBNR1XdWzzAQF73m+YrunA+LwSVRItENTY=
 			</data>
 		</dict>
 	</dict>
