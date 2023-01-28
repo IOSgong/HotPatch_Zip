@@ -4,44 +4,48 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Demo3Framework.h</key>
+		<key>.DS_Store</key>
 		<data>
-		ICSigasNV0bxgRnD6/hlwfOUfys=
+		k07VOaso6qL0PADs9Imvg06ion8=
 		</data>
-		<key>Headers/MainDemoViewController.h</key>
+		<key>Headers/MyDynamicFramework.h</key>
 		<data>
-		/UqGotaMoPFF0YJCV9hviKWd19s=
+		gsMsfEJGcV3zar285fqik99Bxjw=
+		</data>
+		<key>Headers/MyDynamicViewController.h</key>
+		<data>
+		MVVloMTkWJ5soajaAn4rKDZDIvk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TGnxJAOpwavuxyPSfF4gOjtiPhU=
+		XMdIFY/vKBUgTDGWZgBeTtqZNvw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		4HZg8DFrP5IxLjBIY1d3mui4MU8=
+		8volykYTJqhoLG0bk99ok6CE6U0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Demo3Framework.h</key>
+		<key>Headers/MyDynamicFramework.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NFbp9wpnR1hf5X5Xqb96/3oxFHX5lmh1184aumg9OCA=
+			7FRXye9fznd+Gy9nBo1gqkzpPRtWFZi7E2EANonYgGo=
 			</data>
 		</dict>
-		<key>Headers/MainDemoViewController.h</key>
+		<key>Headers/MyDynamicViewController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mCbQJ0ZDsei4Ac0JmdzMHfMMtWHAyXyYZQ+Z0SWPgGQ=
+			vOs/BbJ4TAYaLKN0huWKoWRJCBG5EDuKfYuuy3m3LaA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lzrFd9WoIUBNR1XdWzzAQF73m+YrunA+LwSVRItENTY=
+			QbljmS8hm1YtsK+QAiGRFUG4Z/Gao/ePxu3Wl/N/urM=
 			</data>
 		</dict>
 	</dict>
