@@ -137,7 +137,7 @@
     NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] requestWithMethod:@"GET" URLString:Download_Url parameters:nil error:nil];
 
     [manager.requestSerializer setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
-    [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
+    NSURLSessionTask *task = [manager downloadTaskWithRequest:request progress:^(NSProgress * _Nonnull downloadProgress) {
         float progress = (float)downloadProgress.completedUnitCount / downloadProgress.totalUnitCount;
         _progressView.progress  =progress;
         _progressLabel.text = [NSString stringWithFormat:@"%.2f%%",progress*100];
@@ -162,6 +162,8 @@
             NSLog(@"解压失败 --- 开启失败");
         }
     }];
+    [task resume];
+
 }
 #pragma mark - 比较文件
 -(void)compareFile{
